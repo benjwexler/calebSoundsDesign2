@@ -1,7 +1,19 @@
 * {
     padding: 0;
     margin:  0;
-    /* overflow-x: hidden; */
+    
+}
+
+html, body {
+    /* Allows content to fill the viewport and go beyond the bottom */
+height: 100%;
+ 
+/* Allows you to scroll below the viewport; default value is visible */
+overflow-y: scroll;
+ 
+/* To smooth any scrolling behavior */
+-webkit-overflow-scrolling: touch;
+overflow-x: hidden;
 }
 
 #nav {
@@ -10,6 +22,7 @@
     background: #f2f2f2;
     height: 75px;
     width: 100vw;
+    -webkit-backface-visibility: hidden;
 }
 
 #navContainer {
@@ -26,6 +39,13 @@
     display: flex;
     
  
+}
+
+.fa-bars {
+    display: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: margin-left 1s ease !important;
 }
 
 #navTitle {
@@ -47,7 +67,8 @@
 
 #logInSignUpContainer {
     display: flex;
-    margin-right: 120px;
+    margin-left: 84px;
+    margin-right: 96px;
     cursor: pointer;
 
 }
@@ -87,6 +108,16 @@
     /* color: rgba(45, 51, 221, 0.747)  !important; */
 }
 
+.floatRight{
+    float: right;
+    margin-top: -26px;
+    display: none;
+    margin-right: 52px;
+    transition: margin-right 1s ease !important;
+    /* margin-right: 110px; */
+    /* text-align: end; */
+}
+
 #section1 {
     /* height: 84vh; */
     min-height: 769px;
@@ -99,6 +130,7 @@
     background-size: cover;
     display: flex;
     flex-direction: column;
+
 }
 
 #bigTextContainer {

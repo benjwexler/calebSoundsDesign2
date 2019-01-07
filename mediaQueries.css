@@ -1,14 +1,50 @@
 @media only screen and (max-width: 1120px) {
-    .navLink, #logInSignUpContainer, .fa-shopping-cart  {
+    .navLink, #logInSignUpContainer, .cartWideScreen  {
       display: none;
     }
 
-    #navContainer, #whatsInside {
+   #whatsInside {
         margin-left: 40px;
     }
 
+    .fa-bars {
+        display: initial;
+        margin-left: -20px;
+        
+    }
+
+    .floatRight {
+        display: initial;
+    }
+
+    #navContaineer {
+    max-width: initial;
+    }
+
+    /* .fa-shopping-cart {
+        position: absolute;
+    } */
+
    
   }
+
+  @media only screen and (max-width: 1090px) {
+
+    .fa-bars {
+
+        margin-left: 10px;
+        
+    }
+
+    .floatRight{
+        margin-right: 20px;
+        /* margin-right: 110px; */
+        /* text-align: end; */
+    }
+
+  }
+
+  
 
   @media only screen and (max-width: 860px) {
 
@@ -58,6 +94,11 @@
   }
 
   @media only screen and (max-width: 375px) {
+    .floatRight {
+        margin-right: 10px;
+        margin-top: -21px;
+        font-size: 18px;
+    }
 
     #bigText {
         font-size: 40px;
