@@ -1,0 +1,107 @@
+@media only screen and (max-width: 1120px) {
+    .navLink, #logInSignUpContainer, .fa-shopping-cart  {
+      display: none;
+    }
+
+    #navContainer, #whatsInside {
+        margin-left: 40px;
+    }
+
+   
+  }
+
+  @media only screen and (max-width: 860px) {
+
+    #bigText {
+        font-size: 60px;
+    }
+
+    #bigTextContainer {
+        padding: 0;
+        /* padding-left: 40px; */
+        width: 400px;
+        margin-left: 40px;
+        flex-wrap: wrap;
+        /* margin-right: 40px; */
+        flex-direction: row;
+        /* margin-top: 100px; */
+        
+     }
+
+  }
+
+  @media only screen and (max-width: 600px) {
+
+    #bigText {
+        font-size: 50px;
+        margin-bottom: -70px;
+    }
+
+    #section1 {
+        height: 80vh;
+        min-height: initial;
+    }
+
+    #bigTextContainer {
+        padding: 0;
+        /* padding-left: 40px; */
+        width: 80%;
+        margin-left: 40px;
+        flex-wrap: wrap;
+        /* margin-right: 40px; */
+        flex-direction: row;
+        margin-top: 110px;
+        
+        
+     }
+
+  }
+
+  @media only screen and (max-width: 375px) {
+
+    #bigText {
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+
+    #bigTextContainer {
+        margin-top: 100px;
+        width: 70%;
+    }
+
+    #previewButton {
+        width: 130px;
+        height: 37px;
+        padding-top: 13px;
+        margin-top: -30px;
+    }
+
+    .smallPhoneHide {
+        display: none;
+    }
+
+  }
+
+  @media only screen and (max-width: 320px) {
+
+  
+
+    #bigTextContainer {
+
+        width: 80%;
+    }
+
+}
+  @media only screen and (max-width: 700px) {
+
+
+    .mobileHide {
+        display: none;
+    }
+
+   
+
+   
+
+   
+  }
