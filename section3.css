@@ -88,6 +88,25 @@
     height: 100%;
     background: black;
     border: 1px solid black;
+    position: relative;
+}
+
+.trackCircle {
+    width: 100px !important;
+    height: 100px !important;
+    /* background: rgb(45, 51, 221); */
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid white;
+    
+    
+  
+    transform: translate(-50%, -50%);
+    
+    
+    /* margin-right: 50px !important; */
 }
 
 .trackImage {
@@ -170,21 +189,7 @@
     
 }
 
-.trackCircle {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background: white;
-    margin: auto;
-    
-    position: absolute;
-  left: 53%;
-  top: 49%;
-  
 
-  transform: translate(-50%, -50%);
-    margin: auto;
-}
 
 .trackPlayIcon {
 
@@ -198,5 +203,7 @@
 
 
 }
+
+
 
 
