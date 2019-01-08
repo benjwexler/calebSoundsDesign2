@@ -42,6 +42,10 @@
         /* text-align: end; */
     }
 
+    .track {
+        width: 40%;
+    }
+
   }
 
   
@@ -63,6 +67,7 @@
         /* margin-top: 100px; */
         
      }
+     
 
   }
 
@@ -90,6 +95,12 @@
         
         
      }
+
+     .track {
+        width: 70%;
+        height: 150px;
+    }
+    
 
   }
 
@@ -121,6 +132,8 @@
         display: none;
     }
 
+   
+
   }
 
   @media only screen and (max-width: 320px) {
@@ -139,6 +152,8 @@
     .mobileHide {
         display: none;
     }
+
+    
 
    
 
