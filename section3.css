@@ -88,6 +88,44 @@
     height: 100%;
     background: black;
     border: 1px solid black;
+    position: relative;
+}
+
+.trackCircle {
+    width: 100px ;
+    height: 100px ;
+    /* background: rgb(45, 51, 221); */
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 3px solid white;
+    background: rgba(255, 255, 255, 0.123);
+    opacity: 0;
+    z-index: 99;
+
+
+    
+    
+  
+    transform: translate(-50%, -50%);
+    
+    
+    /* margin-right: 50px !important; */
+}
+
+.trackPlayIcon {
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 30px;
+  opacity: 0;
+  
+
+  transform: translate(-50%, -50%);
+  color: white !important;
+  /* color: rgba(45, 51, 221, 0.338) !important */
+  
 }
 
 .trackImage {
@@ -170,21 +208,7 @@
     
 }
 
-.trackCircle {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    background: white;
-    margin: auto;
-    
-    position: absolute;
-  left: 53%;
-  top: 49%;
-  
 
-  transform: translate(-50%, -50%);
-    margin: auto;
-}
 
 .trackPlayIcon {
 
@@ -198,5 +222,7 @@
 
 
 }
+
+
 
 
