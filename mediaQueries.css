@@ -164,20 +164,13 @@
 
   @media only screen and (max-width: 1080px) {
 
-    #latestTracksContainer {
+    /* #latestTracksContainer {
         margin-left: 20px;
         margin-right: 20px;
 
-    }
+    } */
 
-    .track {
-        width: 33.33% !important;
-    }
-
-    .lastTrack {
-        width: 3% !important;
-        /* display: none; */
-    }
+   
 
    
   }
