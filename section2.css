@@ -1,6 +1,6 @@
 #section2 {
     /* min-height: 769px; */
-    height: 1000px;
+    height: 670px;
     width: 100vw;
     /* border: 1px solid black;s */
 
@@ -87,15 +87,6 @@ tr {
   left: 53%;
   top: 49%;
   
-  /*
-  Nope =(
-  margin-left: -25%;
-  margin-top: -25%;
-  */
-
-  /* 
-  Yep!
-  */
   transform: translate(-50%, -50%);
   color: white;
   
