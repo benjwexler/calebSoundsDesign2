@@ -47,6 +47,40 @@
     margin-right: 10px; */
     display: flex;
     margin-bottom: 30px;
+    /* transform: rotate(180deg); */
+}
+
+.track1Animation {
+    opacity: 0;
+    animation: bigTextAppear 50ms ease-in-out 250ms 5;
+    animation-fill-mode: forwards; 
+    /* transform: rotate(0deg); */
+    
+}
+.track2Animation {
+    opacity: 0;
+    animation: bigTextAppear 50ms ease-in-out 200ms 1;
+    animation-fill-mode: forwards; 
+}
+.track3Animation {
+    opacity: 0;
+    animation: bigTextAppear 50ms ease-in-out 150ms 1;
+    animation-fill-mode: forwards; 
+}
+.track4Animation {
+    opacity: 0;
+    animation: bigTextAppear 50ms ease-in-out 100ms 1;
+    animation-fill-mode: forwards; 
+}
+.track5Animation {
+    opacity: 0;
+    animation: bigTextAppear 50ms ease-in-out 50ms 1;
+    animation-fill-mode: forwards; 
+}
+.track6Animation {
+    opacity: 0;
+    animation: bigTextAppear 50ms ease-in-out 00ms 1;
+    animation-fill-mode: forwards; 
 }
 
 .trackImageContainer {

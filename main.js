@@ -10,11 +10,15 @@ var bounding3 = section3.getBoundingClientRect();
 // let totalHeight = bounding1.height - 75
 let totalHeight = bounding1.height - 120
 
+let firstTwoSections = bounding1.height + bounding2.height - 750; 
+
 
 
 let navLinks = document.getElementsByClassName("navLink")
 
 let shoppingCarts = document.getElementsByClassName("fa-shopping-cart")
+
+let tracks = document.getElementsByClassName("track")
 
 var changeNavonScroll = () => {
 
@@ -24,7 +28,6 @@ var changeNavonScroll = () => {
     
 
     if(scrollFromTop > totalHeight) {
-        console.log("Boom, Boom")
 
         document.getElementById("nav").style.background =  "rgb(9, 10, 16)";
 
@@ -38,7 +41,7 @@ var changeNavonScroll = () => {
             navLinks[i].style.color = "white"
         }
 
-        for(let i=0; i< navLinks.length; i++) {
+        for(let i=0; i< shoppingCarts.length; i++) {
             shoppingCarts[i].style.color = "rgba(255, 255, 255, 0.865)"
         }
 
@@ -59,12 +62,27 @@ var changeNavonScroll = () => {
             navLinks[i].style.color = "black"
         }
 
-        for(let i=0; i< navLinks.length; i++) {
+        for(let i=0; i< shoppingCarts.length; i++) {
             shoppingCarts[i].style.color = "rgba(0, 0, 0, 0.322)"
         }
 
        
     }
+
+    // if(scrollFromTop > firstTwoSections) {
+    //     console.log("hhh")
+    //     document.getElementById("tracksContainer").style.opacity = "1"
+
+    //     for(let i=0; i<tracks.length; i++) {
+    //         tracks[i].classList.add(`track${i+1}Animation`)
+    //     }
+    // } else {
+    //     document.getElementById("tracksContainer").style.opacity = "0"
+    //     for(let i=0; i<tracks.length; i++) {
+    //         tracks[i].classList.remove(`track${i+1}Animation`)
+    //     }
+    // }
+
 }
 
 document.body.addEventListener("scroll", changeNavonScroll); 
