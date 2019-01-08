@@ -92,14 +92,19 @@
 }
 
 .trackCircle {
-    width: 100px !important;
-    height: 100px !important;
+    width: 100px ;
+    height: 100px ;
     /* background: rgb(45, 51, 221); */
     border-radius: 50%;
     position: absolute;
     left: 50%;
     top: 50%;
-    border: 1px solid white;
+    border: 3px solid white;
+    background: rgba(255, 255, 255, 0.123);
+    opacity: 0;
+    z-index: 99;
+
+
     
     
   
@@ -107,6 +112,20 @@
     
     
     /* margin-right: 50px !important; */
+}
+
+.trackPlayIcon {
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 30px;
+  opacity: 0;
+  
+
+  transform: translate(-50%, -50%);
+  color: white !important;
+  /* color: rgba(45, 51, 221, 0.338) !important */
+  
 }
 
 .trackImage {

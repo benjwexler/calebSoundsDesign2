@@ -86,3 +86,41 @@ var changeNavonScroll = () => {
 }
 
 document.body.addEventListener("scroll", changeNavonScroll); 
+
+let trackPics = document.getElementsByClassName("trackImageContainer")
+let trackCircles = document.getElementsByClassName("trackCircle")
+let trackPlayIcon = document.getElementsByClassName("trackPlayIcon")
+
+var trackHover = (e) => {
+    e.currentTarget.childNodes[3].style.opacity = "1"
+    // e.currentTarget.childNodes[3].style.width = "1"
+    e.currentTarget.childNodes[5].style.opacity = "1"
+}
+
+
+
+var trackUnHover = (e) => {
+    e.currentTarget.childNodes[3].style.opacity = "0"
+    e.currentTarget.childNodes[5].style.opacity = "0"
+}
+
+var circleHover = (e) => {
+    e.currentTarget.style.width = "110px"
+    e.currentTarget.style.height = "110px"
+    e.currentTarget.nextSibling.nextElementSibling.style.fontSize = "36px"
+} 
+
+var circleUnHover = (e) => {
+    e.currentTarget.style.width = "100px"
+    e.currentTarget.style.height = "100px"
+    e.currentTarget.nextSibling.nextElementSibling.style.fontSize = "30px"
+  }
+
+
+for(let i=0; i< trackPics.length; i++){
+    trackPics[i].addEventListener("mouseover", trackHover);
+    trackCircles[i].addEventListener("mouseover", circleHover);
+    trackPics[i].addEventListener("mouseout", trackUnHover);
+    trackCircles[i].addEventListener("mouseout", circleUnHover);
+
+    }
