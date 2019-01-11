@@ -20,6 +20,7 @@ overflow-x: hidden;
 #nav {
     position: fixed;
     z-index: 99999;
+    z-index: 999999999999999999999999999999;
     background: #f2f2f2;
     transition: background 800ms ease;
 
@@ -52,6 +53,7 @@ overflow-x: hidden;
     padding-top: 30px;
     display: flex;
     
+    
  
 }
 
@@ -60,7 +62,36 @@ overflow-x: hidden;
     height: 400px;
     background: white;
     z-index: 9999999;
-    display: none;
+    padding-top: 75px;
+    /* display: none; */
+    opacity: 0;
+    margin-top: -475px;
+    transition: margin-top 1s;
+    flex-direction: column
+}
+
+.mobileNavLink {
+    height: 16.66%;
+    width: 100vw;
+    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(233, 233, 233);
+    z-index: 99999999;
+    position: relative;
+
+    
+}
+
+.mobileNavLinkName {
+    position: absolute;
+  left: 50%;
+  top: 50%;
+  
+
+  transform: translate(-50%, -50%);
+  color: black;
+  font-family: 'Josefin Sans', sans-serif !important;
+    cursor: pointer;
+  
 }
 
 .fa-bars {
