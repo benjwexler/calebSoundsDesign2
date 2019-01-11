@@ -32,6 +32,13 @@ overflow-x: hidden;
     -webkit-backface-visibility: hidden;
 }
 
+#outerNavContainer {
+    height: auto;
+    width: 100vw;
+    position: fixed;
+    z-index: 9999999;
+}
+
 #navContainer {
     width: 100%;
     max-width: 1040px;
@@ -46,6 +53,14 @@ overflow-x: hidden;
     display: flex;
     
  
+}
+
+#mobileLinksContainer {
+    width: 100%;
+    height: 400px;
+    background: white;
+    z-index: 9999999;
+    display: none;
 }
 
 .fa-bars {
