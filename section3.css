@@ -100,9 +100,12 @@
     left: 50%;
     top: 50%;
     border: 3px solid white;
-    background: rgba(255, 255, 255, 0.123);
+    /* background: rgba(255, 255, 255, 0.123); */
+    background: rgba(0, 0, 0, 0.418);
+    /* background: rgba(0, 0, 0, 0.543); */
+    /* background: rgba(0, 0, 0, 0.776); */
     opacity: 0;
-    z-index: 99;
+    /* z-index: 99; */
 
 
     
