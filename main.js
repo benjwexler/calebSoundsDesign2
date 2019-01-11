@@ -89,7 +89,7 @@ document.body.addEventListener("scroll", changeNavonScroll);
 
 let trackPics = document.getElementsByClassName("trackImageContainer")
 let trackCircles = document.getElementsByClassName("trackCircle")
-let trackPlayIcon = document.getElementsByClassName("trackPlayIcon")
+let trackPlayIcons = document.getElementsByClassName("trackPlayIcon")
 
 var trackHover = (e) => {
     e.currentTarget.childNodes[3].style.opacity = "1"
@@ -105,9 +105,17 @@ var trackUnHover = (e) => {
 }
 
 var circleHover = (e) => {
+    console.log(e.currentTarget)
     e.currentTarget.style.width = "110px"
     e.currentTarget.style.height = "110px"
     e.currentTarget.nextSibling.nextElementSibling.style.fontSize = "36px"
+} 
+
+var playIconHover = (e) => {
+    console.log(e.currentTarget.previousElementSibling)
+    e.currentTarget.previousElementSibling.style.width = "110px"
+    e.currentTarget.previousElementSibling.style.height = "110px"
+    e.currentTarget.previousElementSibling.nextSibling.nextElementSibling.style.fontSize = "36px"
 } 
 
 var circleUnHover = (e) => {
@@ -120,7 +128,8 @@ var circleUnHover = (e) => {
 for(let i=0; i< trackPics.length; i++){
     trackPics[i].addEventListener("mouseover", trackHover);
     trackCircles[i].addEventListener("mouseover", circleHover);
+    trackPlayIcons[i].addEventListener("mouseover", playIconHover);
     trackPics[i].addEventListener("mouseout", trackUnHover);
     trackCircles[i].addEventListener("mouseout", circleUnHover);
-
+    // trackPlayIcons[i].addEventListener("mouseout", playIconHover);
     }
