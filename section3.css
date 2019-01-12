@@ -105,6 +105,7 @@
     /* background: rgba(0, 0, 0, 0.543); */
     /* background: rgba(0, 0, 0, 0.776); */
     opacity: 0;
+    cursor: pointer;
     /* z-index: 99; */
 
 
@@ -123,6 +124,7 @@
   top: 50%;
   font-size: 30px;
   opacity: 0;
+  cursor: pointer;
   
 
   transform: translate(-50%, -50%);
