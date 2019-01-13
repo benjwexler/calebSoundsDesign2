@@ -105,6 +105,7 @@
     /* background: rgba(0, 0, 0, 0.543); */
     /* background: rgba(0, 0, 0, 0.776); */
     opacity: 0;
+    transition: opacity 250ms;
     cursor: pointer;
     /* z-index: 99; */
 
