@@ -31,7 +31,9 @@ overflow-x: hidden;
     font-family: 'Josefin Sans', sans-serif !important;
     border-radius: 6px;
     border: 1px solid rgba(0,0,0,.1);
-    display: none;
+    /* display: none; */
+    opacity: 0;
+    transition: opacity 300ms;
 
 }
 
@@ -110,7 +112,7 @@ overflow-x: hidden;
     text-align: end;
 }
 
-#emptyBag {
+#emptyBagContainer {
     width: 100%;
     height: 45px;
     margin-top: 10px;
@@ -120,7 +122,7 @@ overflow-x: hidden;
     font-size: 15px;
 }
 
-#emptyBag:hover {
+#emptyBagText:hover {
     cursor: pointer;
 }
 
@@ -139,6 +141,8 @@ overflow-x: hidden;
     
 }
 
+
+
 #checkoutBtn {
     position: absolute;
   left: 50%;
@@ -155,6 +159,10 @@ overflow-x: hidden;
   
 
   transform: translate(-50%, -50%);
+}
+
+#checkoutBtn:hover {
+    cursor: pointer
 }
 
 #checkoutText {
