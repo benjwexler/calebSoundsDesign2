@@ -113,6 +113,10 @@
         
      }
 
+     .wrapper {
+         margin-top: 75px;
+     }
+
      .track {
         width: 70%;
         height: 150px;

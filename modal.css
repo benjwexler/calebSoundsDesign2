@@ -4,8 +4,27 @@
     width: 100vw;
     background: rgba(0, 0, 0, 0.075);
     background: rgba(0, 0, 0, 0.151);
-    z-index: 999999999999999999;
+    background: rgba(0, 0, 0, 0.571);
+    background: rgba(0, 0, 0, 0.63);
+    background: rgba(0, 0, 0, 0.801);
+    /* z-index: 999999999999999999; */
+    z-index: 99;
     /* opacity: .2; */
+}
+
+#exitModal {
+    position: absolute;
+    /* height: 20px;
+    width: 20px; */
+    /* background: black; */
+    top: 2px;
+    right: 8px;
+    font-size:  24px;
+    color: black;
+}
+
+#exitModal:hover {
+    cursor: pointer;
 }
 
 #modal {
@@ -71,6 +90,7 @@
     font-family: 'Josefin Sans', sans-serif !important;
     box-sizing: border-box;
     box-shadow: 1px 3px rgba(0, 0, 0, 0.322);
+    position: relative;
     /* font-family: 'Fjalla One', sans-serif; */
 }
 
@@ -106,6 +126,10 @@
     border: 2px solid rgba(0, 0, 0, 0.842);
     color: rgb(45, 51, 221); */
 
+}
+
+.switchFormBtn:hover {
+    cursor: pointer;
 }
 
 .inactiveBtn {
@@ -152,10 +176,13 @@
 
 .field {
     width: auto;
+    text-align: center;
+    /* position: relative; */
 }
 
 #pwdMinText {
-    text-align: center;
+    
+    margin: auto;
 }
 .form {
     /* width: 100%; */
@@ -164,11 +191,43 @@
     box-shadow: 2px 3px;
     height: 40px;
     padding: 0px 10px;
+    padding: 0px 30px;
+    padding-right: 5px;
     /* margin-right: 50px; */
     font-size: 16px;
     font-family: 'Josefin Sans', sans-serif !important;
     margin-bottom: 5px;
+    position: relative;
+    display: flex;
+    
 }
+
+.modalIconContainer {
+    position: relative;
+    width: auto;
+    height: auto;
+    
+}
+
+.modalIcon {
+    position: absolute;
+    top: 50%;
+    left:10px;
+    color: black;
+    transform: translate(0%, -50%);
+}
+
+/* #email::before {
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 12px;
+    width: 20px;
+    height: 25px;
+    filter: invert(1);
+    background: url(/Users/bwexler/Desktop/WDF/calebSoundsDesign2/pics/email-icon.png) no-repeat left top !important
+
+} */
 
 .btn {
     display: inline-block;
@@ -187,7 +246,7 @@
     border-radius: 0.25rem;
     border-radius: 10px;
     background: rgba(45, 51, 221, 0.747);
-    background: rgba(45, 51, 221, 0.904);
+    /* background: rgba(45, 51, 221, 0.904); */
     font-family: 'Josefin Sans', sans-serif !important;
     color: white;
     width: 270px;
