@@ -4,6 +4,7 @@
     background: rgba(0, 0, 0, 0.94);
     background: rgb(9, 10, 16);
     margin-bottom: 5px;
+    z-index: 100;
 }
 
 #email {
