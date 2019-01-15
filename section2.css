@@ -8,24 +8,28 @@
     flex-direction: column; */
 }
 
-#whatsInside {
+#section2topRow {
     font-family: 'Fjalla One', sans-serif;
     width: 100%;
     max-width: 1040px;
-
-    /* border: 2px solid purple; */
     margin: auto;
-    /* height: 100%; */
-    /* padding-left: 40px; */
-    /* border: 1px solid black; */
-    /* padding-right: 60px; */
-    padding-top: 30px;
     font-size: 22px;
     font-weight: bold !important;
+    /* height: 50px; */
+    
+
+}
+
+#whatsInside {
+    width: 50%;
+
+    padding-top: 30px;
     margin-bottom: 20px;
-    /* opacity: 0;
-    animation: bigTextAppear 500ms linear 500ms 1;
-    animation-fill-mode: forwards; */
+
+
+    /* CURRENT SET UP */
+    /* padding-top: 30px; */
+    /* margin-bottom: 20px; */
 
 }
 
