@@ -300,10 +300,18 @@ overflow-x: hidden;
      /* color: white; */
 }
 
+#navStreamingIcons {
+    display: flex;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 #logInSignUpContainer {
     display: flex;
     margin-left: 84px;
+    margin-left: 104px;
     margin-right: 96px;
+    margin-right: 76px;
     cursor: pointer;
 
 }
