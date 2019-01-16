@@ -60,7 +60,13 @@
     }
 
     .track {
-        width: 40%;
+        width: 45%;
+        /* height: 160px; */
+    }
+
+    #tracksContainer {
+        padding-left: 50px;
+        padding-right: 50px;
     }
 
   }
@@ -84,6 +90,18 @@
         /* margin-top: 100px; */
         
      }
+
+     .track {
+        height: 160px;
+     }
+
+     .trackName {
+         font-size: 16px;
+     }
+
+     .streamingLogo {
+         font-size: 20px !important;
+     }
      
 
   }
@@ -93,6 +111,10 @@
     #bigText {
         font-size: 50px;
         margin-bottom: -70px;
+    }
+
+    .streamingLogo {
+        font-size: 16px !important;
     }
 
     #section1 {
@@ -119,10 +141,30 @@
 
      .track {
         width: 70%;
-        height: 150px;
+        min-width: 300px;
+        
+    }
+
+    .lastTwoTracks {
+        display: none;
     }
     
 
+  }
+
+  @media only screen and (max-width: 414px) {
+    /* .track {
+        width: 90%;
+        
+    } */
+
+    #whatsInside {
+        margin-left: 20px;
+    }
+
+    #addToCart {
+        margin-right: 25px;
+    }
   }
 
   @media only screen and (max-width: 375px) {
@@ -172,6 +214,14 @@
 
     .mobileHide {
         display: none;
+    }
+
+    #whatsInside {
+        margin-left: 15px;
+    }
+
+    #addToCart {
+        margin-right: 15px;
     }
 
     

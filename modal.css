@@ -9,6 +9,7 @@
     background: rgba(0, 0, 0, 0.801);
     /* z-index: 999999999999999999; */
     z-index: 99;
+    /* z-index: 999999999999999; */
     /* opacity: .2; */
 }
 
@@ -38,6 +39,8 @@
     border-radius: 5px;
     font-family: 'Josefin Sans', sans-serif !important;
     box-sizing: border-box;
+    
+    
 
 }
 
@@ -107,6 +110,7 @@
 
 .switchFormBtn {
     width: 45%;
+    /* min-width: 120px; */
     height: 30px;
     /* background: yellow; */
     margin: auto;
@@ -134,6 +138,7 @@
 
 .inactiveBtn {
     width: 45%;
+    /* min-width: 120px; */
     height: 30px;
     /* background: yellow; */
     margin: auto;
