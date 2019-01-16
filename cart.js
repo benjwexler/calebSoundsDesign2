@@ -10,11 +10,13 @@ toggleCartDropDown = () => {
     console.log("cart icon clicked")
 
     if(showCart === false) {
+        cart.style.display = "initial"
         cart.style.opacity = "1"
         // cart.style.display = "block"
         
         
     } else {
+        cart.style.display = "none"
         cart.style.opacity = "0"
         // cart.style.display = "none"
         
