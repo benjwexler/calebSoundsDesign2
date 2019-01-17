@@ -10,12 +10,18 @@ toggleCartDropDown = () => {
     console.log("cart icon clicked")
 
     if(showCart === false) {
+        cart.style.z_index = "99999999999999"
+        cart.style.height = "auto";
         cart.style.opacity = "1"
+        
         // cart.style.display = "block"
         
         
     } else {
+        cart.style.z_index = "-99999999999999"
+        cart.style.height = "0px";
         cart.style.opacity = "0"
+        
         // cart.style.display = "none"
         
     }

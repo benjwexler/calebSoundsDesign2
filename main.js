@@ -22,7 +22,7 @@ let tracks = document.getElementsByClassName("track")
 
 var changeNavonScroll = () => {
 
-    let scrollFromTop = document.body.scrollTop
+    let scrollFromTop = window.scrollY
 
     
     
@@ -85,7 +85,8 @@ var changeNavonScroll = () => {
 
 }
 
-document.body.addEventListener("scroll", changeNavonScroll); 
+window.addEventListener("scroll", changeNavonScroll); 
+debugger
 
 let trackPics = document.getElementsByClassName("trackImageContainer")
 let trackCircles = document.getElementsByClassName("trackCircle")
