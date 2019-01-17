@@ -42,9 +42,10 @@ height: 100%;
     border: 1px solid rgba(0,0,0,.1);
     /* display: none; */
     opacity: 0;
+    overflow: hidden;
     transition: opacity 300ms;
 
-    display: none;
+    /* display: none; */
 
 }
 
@@ -161,6 +162,7 @@ height: 100%;
   width: 90%;
   height: 65%;
   background: rgb(45, 51, 221);
+  background: rgba(45, 51, 221, 0.89);
   border-radius: 5px;
   text-align: center;
   margin-top: 6px;
@@ -254,7 +256,7 @@ height: 100%;
     /* display: none; */
     opacity: 0;
     margin-top: -475px;
-    transition: margin-top 1s, opacity  400ms;
+    transition: margin-top 1s, opacity  50ms;
     flex-direction: column
 }
 
